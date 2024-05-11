@@ -76,20 +76,20 @@ def all_actions():
     counter = 0
 
     def increment_counter():
-        nonlocal counter		# changed `global` to `nonlocal`
+        nonlocal counter        # changed `global` to `nonlocal`
         counter += 1
 
-    print(counter)                # 0
+    print(counter)              # 0
 
     increment_counter()
-    print(counter)                # 1
+    print(counter)              # 1
 
     increment_counter()
-    print(counter)                # 2
+    print(counter)              # 2
 
     counter = 100
     increment_counter()
-    print(counter)                # 101
+    print(counter)              # 101
 
 all_actions()
 ```
