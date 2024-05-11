@@ -80,7 +80,7 @@ print('31415'.isdigit())		# True
 print('-31415'.isdigit())		# False
 print('31_415'.isdigit())		# False
 print('3.1415'.isdigit())		# False
-print(''.isspace())				# False
+print(''.isspace())			# False
 ```
 
 ##### *7. Write Python code to replace all the `:` characters in the string below with `+`.*
@@ -158,8 +158,8 @@ print(cats['Pete']['Cocoa']['enjoys'])
 print('johnson' in 'Joe Johnson')		# False
 print('sen' not in 'Joe Johnson')		# True
 print('Joe J' in 'Joe Johnson')			# True
-print(5 in range(5))					# False
-print(5 in range(6))					# True
+print(5 in range(5))				# False
+print(5 in range(6))				# True
 print(5 not in range(5, 10))			# False
 print(0 in range(10, 0, -1))			# False
 print(4 in {6, 5, 4, 3, 2, 1})			# True
@@ -188,7 +188,7 @@ print(3 in numbers5)	# True
 ```python
 cats = ('Cocoa', 'Cheddar',
         'Pudding', 'Butterscotch')
-print('Butterscotch' in cats)		# True
+print('Butterscotch' in cats)		        # True
 print('Butter' in cats)				# False
 print('Butter' in cats[3])			# True
 print('cheddar' in cats)			# False
@@ -217,6 +217,6 @@ pets = {
 keys = pets.keys()
 del pets['Dog']
 pets['Snake'] = 'Sssss'
-print(keys)				# dict_keys(['Cat', 'Bird', 'Snake'])
+print(keys)    # dict_keys(['Cat', 'Bird', 'Snake'])
 ```
 
